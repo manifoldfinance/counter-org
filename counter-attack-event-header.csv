@@ -1,0 +1,9 @@
+Field,Definition
+Date,The date the event occurred
+Time,The local time when the event occurred
+Type,A classification of the event severity or type. For security audit events these are either of type Success Audit or Failure Audit.
+Source,"The application that logged the event. This can either be an actual program, like SQL Server, a driver name, or a component of the system, like Security for instance."
+Category,The event source’s classification of the event. This is pertinent in security audit logs as it corresponds to an event type that can be configured in Group Policy.
+Event ID,"This code identifies the specific type of event. In the figure above the Event ID is listed as 680, this Event ID indicates that a set of credentials was passed to the authentication system by a local process, remote process, or user."
+User,The username of the user on whose behalf the event occurred. This name is the client ID if it was caused by a process or the primary ID if impersonation s not taking place. In security events both the primary and impersonation information will be displayed if possible and applicable.
+Computer,The name of the computer where the event occurred.
